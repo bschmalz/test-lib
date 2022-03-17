@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/bschmalz"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Test Component Library",
   "scripts": {
     "rollup": "rollup -c",
@@ -53,7 +53,8 @@
     "dist"
   ],
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "types": "dist/index.d.ts",
   "dependencies": {
