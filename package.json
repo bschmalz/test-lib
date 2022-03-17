@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/bschmalz"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Test Component Library",
   "scripts": {
     "rollup": "rollup -c",
@@ -44,7 +44,9 @@
     "prettier": "^2.5.1",
     "rollup": "^2.60.0",
     "rollup-plugin-dts": "^4.0.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-terser": "^7.0.2",
     "typescript": "^4.4.4"
   },
   "main": "dist/cjs/index.js",
